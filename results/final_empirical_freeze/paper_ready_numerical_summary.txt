@@ -1,0 +1,56 @@
+CGTSR FINAL EMPIRICAL SUMMARY
+=============================
+
+Study scope
+-----------
+Projects: 4
+Releases: 12
+
+Coverage-guided reduction
+-------------------------
+Original test instances: 10129
+Selected test instances: 2381
+Removed test instances: 7748
+Pooled combined reduction: 76.49%
+
+The deterministic greedy CGTSR suites preserve 100% of the frozen
+combined statement-and-branch coverage universe for all 12 releases.
+
+Random size-matched baseline
+----------------------------
+Random samples: 1,000 per release; 12,000 total.
+Random suites achieving complete frozen combined coverage: 0/12,000.
+CGTSR suites achieving complete frozen combined coverage: 12/12.
+Mean release-level random coverage: 72.92%.
+
+Runtime evaluation
+------------------
+Protocol: one warm-up followed by five measured repetitions per full
+and reduced suite, with alternating execution order and coverage
+instrumentation disabled.
+
+Mean release-level median runtime reduction: 43.54%
+95% release-bootstrap CI: [25.39%, 61.25%]
+
+Median release-level median runtime reduction: 48.51%
+95% release-bootstrap CI: [8.53%, 74.93%]
+
+Releases with lower reduced-suite median runtime: 12/12
+Exact two-sided release-level sign test: p=0.000488
+
+Reduced suite faster in individual measured pairs:
+59/60
+
+Median release-level speedup:
+2.187x
+
+Test-count reduction versus runtime reduction
+---------------------------------------------
+Pearson r: 0.972
+Spearman rho: 0.734
+
+Interpretive boundary
+---------------------
+The results support coverage-preserving greedy test-suite reduction
+and observed runtime savings. They do not establish global suite
+minimality or preservation of fault-detection effectiveness.

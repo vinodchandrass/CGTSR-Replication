@@ -1,0 +1,43 @@
+{
+  "component": "size_matched_random_baseline",
+  "implementation": "src/cgtsr/baseline.py",
+  "implementation_status": "reference reproduction implementation reconstructed from frozen protocol and artifacts",
+  "validation_scope": {
+    "releases": 12,
+    "trials_per_release": 1000,
+    "total_trials": 12000
+  },
+  "frozen_protocol": {
+    "criterion": "combined_statement_branch",
+    "sampling": "without_replacement",
+    "population_order": "lexicographically_sorted_test_ids",
+    "rng": "random.Random",
+    "persistent_rng_stream_per_release": true,
+    "base_seed": 20260915,
+    "release_seed_range": [
+      20260915,
+      20260926
+    ],
+    "sample_size_rule": "same number of tests as corresponding combined CGTSR selected suite"
+  },
+  "validation_results": {
+    "exact_trial_matches": 12000,
+    "total_trial_rows": 12000,
+    "covered_element_matches": 12000,
+    "retention_percent_matches": 12000,
+    "metadata_matches": 12000,
+    "exact_release_matches": 12,
+    "total_releases": 12,
+    "maximum_absolute_retention_float_error": 7.105e-15,
+    "status": "PASS"
+  },
+  "methodological_boundary": {
+    "subject_test_suites_executed": false,
+    "pytest_executed": false,
+    "coverage_py_executed": false,
+    "frozen_empirical_artifacts_modified": false,
+    "new_empirical_experiment": false,
+    "interpretation": "The reference implementation exactly reproduces the archived random-baseline trial outcomes. This establishes procedural reproducibility of the frozen size-matched random baseline; it does not establish global optimality or fault-detection equivalence."
+  },
+  "recorded_at": "2026-09-17T18:37:58"
+}

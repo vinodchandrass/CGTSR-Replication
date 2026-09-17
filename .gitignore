@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+*_venv/
+site-packages/
+
+# Coverage databases
+.coverage
+.coverage.*
+*.coverage
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Large raw experimental artifacts
+per_test_coverage_elements.json
+per_test_coverage_elements.normalized.json

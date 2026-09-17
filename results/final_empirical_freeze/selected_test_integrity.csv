@@ -1,0 +1,13 @@
+project,version,expected_selected,actual_selected,duplicates,status
+attrs,24.1.0,190,190,0,PASS
+attrs,25.3.0,189,189,0,PASS
+attrs,26.1.0,198,198,0,PASS
+cattrs,24.1.0,120,120,0,PASS
+cattrs,25.3.0,135,135,0,PASS
+cattrs,26.1.0,141,141,0,PASS
+boltons,24.1.0,178,178,0,PASS
+boltons,25.0.0,181,181,0,PASS
+boltons,26.1.0,196,196,0,PASS
+more-itertools,10.5.0,272,272,0,PASS
+more-itertools,10.8.0,286,286,0,PASS
+more-itertools,11.1.0,295,295,0,PASS

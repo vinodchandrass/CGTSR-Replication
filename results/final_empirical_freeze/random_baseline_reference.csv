@@ -1,0 +1,13 @@
+project,version,cgtsr_combined_coverage_pct,random_mean_coverage_pct,random_trials,random_full_coverage_count
+attrs,24.1.0,100.0,74.49,1000,0
+attrs,25.3.0,100.0,74.42,1000,0
+attrs,26.1.0,100.0,75.08,1000,0
+cattrs,24.1.0,100.0,77.4,1000,0
+cattrs,25.3.0,100.0,77.87,1000,0
+cattrs,26.1.0,100.0,77.69,1000,0
+boltons,24.1.0,100.0,64.87,1000,0
+boltons,25.0.0,100.0,64.87,1000,0
+boltons,26.1.0,100.0,66.74,1000,0
+more-itertools,10.5.0,100.0,74.02,1000,0
+more-itertools,10.8.0,100.0,74.1,1000,0
+more-itertools,11.1.0,100.0,73.53,1000,0

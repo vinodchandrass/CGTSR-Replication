@@ -1,0 +1,49 @@
+{
+  "analysis_status": "PASS",
+  "projects": 4,
+  "releases": 12,
+  "combined_original_test_instances": 10129,
+  "combined_selected_test_instances": 2381,
+  "combined_removed_test_instances": 7748,
+  "pooled_test_count_reduction_percent": 76.49323723960904,
+  "coverage_preservation": "100% of frozen combined statement+branch universe",
+  "random_baseline_trials": 12000,
+  "random_full_coverage_suites": 0,
+  "cgtsr_full_coverage_releases": 12,
+  "mean_release_level_random_coverage_percent": 72.92333333333333,
+  "runtime_protocol": {
+    "warmup_runs_per_suite": 1,
+    "measured_repetitions_per_suite": 5,
+    "execution_order": "alternating",
+    "coverage_instrumentation": false,
+    "primary_unit_for_overall_inference": "release"
+  },
+  "runtime": {
+    "mean_release_level_median_reduction_percent": 43.540355891085916,
+    "mean_reduction_bootstrap_95_ci": [
+      25.38839298132632,
+      61.249284088655536
+    ],
+    "median_release_level_median_reduction_percent": 48.505865834318946,
+    "median_reduction_bootstrap_95_ci": [
+      8.532724341831878,
+      74.92927725233442
+    ],
+    "positive_releases": 12,
+    "negative_releases": 0,
+    "exact_sign_test_two_sided_p": 0.00048828125,
+    "reduced_faster_measurement_pairs": 59,
+    "total_measurement_pairs": 60,
+    "median_release_level_speedup": 2.187004552509833
+  },
+  "relationship": {
+    "pearson_test_reduction_vs_runtime_reduction": 0.9715916529567671,
+    "spearman_test_reduction_vs_runtime_reduction": 0.7342657342657343
+  },
+  "limitations": [
+    "Greedy set cover does not establish global minimality.",
+    "Coverage preservation does not establish equivalent fault detection.",
+    "Runtime repetitions within a release are measurement replicates, not independent software-system observations.",
+    "Runtime benefits are heterogeneous across projects."
+  ]
+}

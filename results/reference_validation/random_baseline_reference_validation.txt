@@ -1,0 +1,43 @@
+CGTSR — RANDOM BASELINE REFERENCE VALIDATION
+============================================================
+
+Component:
+  Size-matched random coverage baseline
+
+Reference implementation:
+  src/cgtsr/baseline.py
+
+Validation:
+  Releases checked             : 12
+  Trials per release           : 1,000
+  Frozen trial rows            : 12,000
+  Exact trial matches          : 12,000/12,000
+  Covered-element matches      : 12,000/12,000
+  Retention-percent matches    : 12,000/12,000
+  Metadata matches             : 12,000/12,000
+  Exact releases               : 12/12
+
+Maximum absolute floating-point difference:
+  7.105e-15
+
+Frozen generator reconstructed as:
+  random.Random(release_seed)
+  population = lexicographically sorted test IDs
+  sampling = without replacement
+  one persistent RNG stream per release
+  1,000 trials per release
+
+Methodological boundary:
+  Subject test suites executed : NO
+  pytest executed              : NO
+  coverage.py executed         : NO
+  Frozen artifacts modified    : NO
+  New empirical experiment     : NO
+
+Interpretation:
+  The reference implementation exactly reproduces all archived
+  size-matched random-baseline trial outcomes. This validates
+  procedural reproduction of the frozen baseline. It does not
+  imply global optimality or fault-detection equivalence.
+
+STATUS: PASS

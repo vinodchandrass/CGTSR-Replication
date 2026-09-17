@@ -1,0 +1,27 @@
+{
+  "validation_type": "reference_implementation_against_frozen_selections",
+  "implementation": "src/cgtsr/reduction.py",
+  "implementation_status": "reference reproduction implementation",
+  "authoritative_evidence": "frozen CGTSR selected-test files",
+  "release_criterion_cases": 36,
+  "exact_ordered_matches": 36,
+  "exact_set_matches": 36,
+  "selected_count_matches": 36,
+  "coverage_preservation_cases": 36,
+  "projects": 4,
+  "releases": 12,
+  "criteria": [
+    "statement",
+    "branch",
+    "combined"
+  ],
+  "validation_result": "PASS",
+  "interpretation": "The reference implementation reproduced all frozen CGTSR selected-test sequences exactly, including selection order, for all 12 releases and all three coverage criteria.",
+  "methodological_boundary": "This validates faithful reproduction of the frozen CGTSR selection procedure. It does not establish global minimum-cardinality test suites or equivalent fault-detection effectiveness.",
+  "subject_test_suites_executed": false,
+  "pytest_executed": false,
+  "coverage_py_executed": false,
+  "frozen_artifacts_modified": false,
+  "empirical_results_recomputed": false,
+  "record_created": "2026-09-17T18:23:18.380340"
+}

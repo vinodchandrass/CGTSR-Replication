@@ -1,0 +1,73 @@
+{
+  "validation_type": "deterministic_statistical_analysis_reference",
+  "implementation": "src/cgtsr/analysis.py",
+  "status": "PASS",
+  "release_level_statistics": {
+    "releases_checked": 12,
+    "status": "PASS"
+  },
+  "project_level_statistics": {
+    "projects_checked": 4,
+    "status": "PASS"
+  },
+  "overall_runtime_statistics": {
+    "status": "PASS",
+    "mean_release_level_median_runtime_reduction_pct": 43.540355891085916,
+    "median_release_level_median_runtime_reduction_pct": 48.505865834318946,
+    "positive_releases": 12,
+    "negative_releases": 0,
+    "exact_two_sided_sign_test_p": 0.00048828125,
+    "reduced_faster_measurement_pairs": 59,
+    "total_measurement_pairs": 60,
+    "median_release_level_speedup": 2.187004552509833
+  },
+  "relationship_analysis": {
+    "status": "PASS",
+    "pearson": 0.9715916529567671,
+    "spearman": 0.7342657342657343
+  },
+  "standard_deviation_convention": {
+    "ddof": 1,
+    "description": "sample standard deviation"
+  },
+  "spearman_implementation": {
+    "method": "Pearson correlation of average-ranked values",
+    "scipy_required": false
+  },
+  "bootstrap_confidence_intervals": {
+    "validated": false,
+    "frozen_results_retained": true,
+    "mean_release_level_median_runtime_reduction_pct": 43.540355891085916,
+    "mean_frozen_bootstrap_95_ci": [
+      25.38839298132632,
+      61.249284088655536
+    ],
+    "median_release_level_median_runtime_reduction_pct": 48.505865834318946,
+    "median_frozen_bootstrap_95_ci": [
+      8.532724341831878,
+      74.92927725233442
+    ],
+    "provenance_search_status": "ORIGINAL_STATISTICAL_BOOTSTRAP_CODE_NOT_RETAINED",
+    "retained_notebook_bootstrap_occurrences": "environment/package bootstrapping only",
+    "unknown_original_details": [
+      "bootstrap resample count",
+      "random-number-generator implementation",
+      "random seed",
+      "exact confidence-interval percentile/quantile implementation"
+    ],
+    "reference_implementation_policy": "Do not infer undocumented bootstrap parameters merely to force numerical agreement with frozen CI endpoints.",
+    "authoritative_source": "frozen empirical result artifacts"
+  },
+  "methodological_boundary": {
+    "primary_overall_inference_unit": "release",
+    "within_release_timings": "measurement replicates, not independent software-system observations"
+  },
+  "execution_boundary": {
+    "runtime_benchmarks_rerun": false,
+    "subject_tests_executed": false,
+    "pytest_executed": false,
+    "coverage_executed": false,
+    "frozen_artifacts_modified": false
+  },
+  "note": "This validates the deterministic analysis reference implementation against frozen empirical artifacts. It does not regenerate runtime measurements."
+}

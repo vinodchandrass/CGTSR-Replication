@@ -1,0 +1,21 @@
+CGTSR REFERENCE IMPLEMENTATION VALIDATION
+=========================================
+
+Result: PASS
+
+Release × criterion cases : 36
+Exact ordered matches     : 36/36
+Exact set matches         : 36/36
+Selected-count matches    : 36/36
+Coverage preservation     : 36/36
+
+The reference implementation in src/cgtsr/reduction.py reproduced
+the frozen CGTSR selected-test sequences exactly, including selection
+order, for all 12 releases and all three coverage criteria.
+
+No subject test suite, pytest invocation, or coverage.py execution was
+performed during this validation.
+
+The validation demonstrates faithful reproduction of the frozen CGTSR
+selection procedure. It does not establish global minimum-cardinality
+test suites or equivalent fault-detection effectiveness.

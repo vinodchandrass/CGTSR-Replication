@@ -1,0 +1,11 @@
+{
+  "project": "attrs",
+  "version": "24.1.0",
+  "purpose": "CGTSR denominator normalization only",
+  "original_element_records": 1260,
+  "collected_tests_without_context_added": 74,
+  "normalized_records": 1334,
+  "zero_coverage_records": 74,
+  "frozen_tier3_input_modified": false,
+  "normalization_rule": "Missing collected tests are represented as explicit empty coverage sets."
+}

@@ -1,0 +1,48 @@
+{
+  "operation": "production-copy portability cleanup",
+  "timestamp": "2026-09-17T18:05:25.555867",
+  "scope": "<PUBLIC_REPOSITORY>",
+  "original_frozen_workspace_modified": false,
+  "empirical_results_recomputed": false,
+  "numerical_results_intentionally_modified": false,
+  "selected_test_files_modified": false,
+  "backup_directory": "metadata\\_pre_portability_cleanup",
+  "changes": [
+    {
+      "file": "metadata\\production_build_manifest.json",
+      "replacements": 56,
+      "sha256_before": "f5044dd8af63c3b71b13fd8fcb821225ebc4737b3e6b10ee24a0fc0e72df287c",
+      "sha256_after": "b16698d8d2d0b2c5fdeb2115642fc125076d95c8b7cb8ccd7003c646cc34193e"
+    },
+    {
+      "file": "scripts\\Testing_Tier3_Corrected.ipynb",
+      "replacements": 514,
+      "sha256_before": "bb8f1eb22028e81e5822658535ec33a8f86f6bf00d1b371a52a011a2c5a76653",
+      "sha256_after": "bbbce54db1e272f751b3a1eb6018f8eca90896cf605ea6f00b92c83eafce55c5"
+    },
+    {
+      "file": "results\\coverage_characterization\\tier3_per_test_coverage_summary.json",
+      "replacements": 33,
+      "sha256_before": "c0c981507d0690ac3237f3fb9d5ec789830e3ad9668e74a7c593d8540f378e77",
+      "sha256_after": "fb90ebbf40f28a672c30b7ba8d9dc6b39ab6629306c14cb9a535f234086239b7"
+    },
+    {
+      "file": "results\\final_empirical_freeze\\CGTSR_FINAL_FREEZE_MANIFEST.json",
+      "replacements": 17,
+      "sha256_before": "c0bb5ba5ff07572f036c12e5305ec4219a0ed44bac0933a468b3cac2f7aca0cd",
+      "sha256_after": "79dc6896e2b455b929b9008024919488dc336b3f16729a14c48173ae31c6551d"
+    },
+    {
+      "file": "results\\runtime\\final_runtime_summary_12_releases.csv",
+      "replacements": 25,
+      "sha256_before": "070ef4ba4242610f6a61f19622c1c936aa463a8e697aa1d7efe1950493717542",
+      "sha256_after": "e830b1312373bd1b8e4c0a63a78110d9876acd3dd458858720cf742981006598"
+    },
+    {
+      "file": "results\\runtime\\final_runtime_summary_12_releases.json",
+      "replacements": 25,
+      "sha256_before": "ee758b77ba370c0c7e7c0ae94eab86fbbc12abf91a439f8ba34cee00265a4fc1",
+      "sha256_after": "7b86049e2e3e0bba2619073ea8d9aba3e7549a1f755d17143a49359dc5ebf142"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "repository": "CGTSR_Replication",
+  "created": "2026-09-17T18:02:01.018501",
+  "source_workspace": "<LOCAL_WORKSPACE>",
+  "files_copied": 55,
+  "copied_files": [
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_characterization\\tier3_per_test_coverage_summary.csv",
+      "destination": "results\\coverage_characterization\\tier3_per_test_coverage_summary.csv",
+      "bytes": 1156
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_characterization\\tier3_per_test_coverage_summary.json",
+      "destination": "results\\coverage_characterization\\tier3_per_test_coverage_summary.json",
+      "bytes": 11860
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cgtsr_reduction_summary.csv",
+      "destination": "results\\cgtsr_reduction\\cgtsr_reduction_summary.csv",
+      "bytes": 2218
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cgtsr_reduction_summary.json",
+      "destination": "results\\cgtsr_reduction\\cgtsr_reduction_summary.json",
+      "bytes": 11582
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\attrs\\24.1.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\attrs\\24.1.0\\selected_tests_statement.txt",
+      "bytes": 10547
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\attrs\\24.1.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\attrs\\24.1.0\\selected_tests_branch.txt",
+      "bytes": 12350
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\attrs\\24.1.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\attrs\\24.1.0\\selected_tests_combined.txt",
+      "bytes": 12389
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\attrs\\25.3.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\attrs\\25.3.0\\selected_tests_statement.txt",
+      "bytes": 10588
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\attrs\\25.3.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\attrs\\25.3.0\\selected_tests_branch.txt",
+      "bytes": 12428
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\attrs\\25.3.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\attrs\\25.3.0\\selected_tests_combined.txt",
+      "bytes": 12428
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\attrs\\26.1.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\attrs\\26.1.0\\selected_tests_statement.txt",
+      "bytes": 11423
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\attrs\\26.1.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\attrs\\26.1.0\\selected_tests_branch.txt",
+      "bytes": 13390
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\attrs\\26.1.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\attrs\\26.1.0\\selected_tests_combined.txt",
+      "bytes": 13390
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cattrs\\24.1.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\cattrs\\24.1.0\\selected_tests_statement.txt",
+      "bytes": 7035
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cattrs\\24.1.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\cattrs\\24.1.0\\selected_tests_branch.txt",
+      "bytes": 7500
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cattrs\\24.1.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\cattrs\\24.1.0\\selected_tests_combined.txt",
+      "bytes": 7500
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cattrs\\25.3.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\cattrs\\25.3.0\\selected_tests_statement.txt",
+      "bytes": 7730
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cattrs\\25.3.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\cattrs\\25.3.0\\selected_tests_branch.txt",
+      "bytes": 8404
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cattrs\\25.3.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\cattrs\\25.3.0\\selected_tests_combined.txt",
+      "bytes": 8523
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cattrs\\26.1.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\cattrs\\26.1.0\\selected_tests_statement.txt",
+      "bytes": 8124
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cattrs\\26.1.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\cattrs\\26.1.0\\selected_tests_branch.txt",
+      "bytes": 8909
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cattrs\\26.1.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\cattrs\\26.1.0\\selected_tests_combined.txt",
+      "bytes": 8910
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\boltons\\24.1.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\boltons\\24.1.0\\selected_tests_statement.txt",
+      "bytes": 8812
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\boltons\\24.1.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\boltons\\24.1.0\\selected_tests_branch.txt",
+      "bytes": 9181
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\boltons\\24.1.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\boltons\\24.1.0\\selected_tests_combined.txt",
+      "bytes": 9181
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\boltons\\25.0.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\boltons\\25.0.0\\selected_tests_statement.txt",
+      "bytes": 9044
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\boltons\\25.0.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\boltons\\25.0.0\\selected_tests_branch.txt",
+      "bytes": 9356
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\boltons\\25.0.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\boltons\\25.0.0\\selected_tests_combined.txt",
+      "bytes": 9356
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\boltons\\26.1.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\boltons\\26.1.0\\selected_tests_statement.txt",
+      "bytes": 9746
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\boltons\\26.1.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\boltons\\26.1.0\\selected_tests_branch.txt",
+      "bytes": 10169
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\boltons\\26.1.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\boltons\\26.1.0\\selected_tests_combined.txt",
+      "bytes": 10169
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\more-itertools\\10.5.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\more-itertools\\10.5.0\\selected_tests_statement.txt",
+      "bytes": 13265
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\more-itertools\\10.5.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\more-itertools\\10.5.0\\selected_tests_branch.txt",
+      "bytes": 15005
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\more-itertools\\10.5.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\more-itertools\\10.5.0\\selected_tests_combined.txt",
+      "bytes": 15005
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\more-itertools\\10.8.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\more-itertools\\10.8.0\\selected_tests_statement.txt",
+      "bytes": 13931
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\more-itertools\\10.8.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\more-itertools\\10.8.0\\selected_tests_branch.txt",
+      "bytes": 15791
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\more-itertools\\10.8.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\more-itertools\\10.8.0\\selected_tests_combined.txt",
+      "bytes": 15791
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\more-itertools\\11.1.0\\selected_tests_statement.txt",
+      "destination": "data\\selected_tests\\more-itertools\\11.1.0\\selected_tests_statement.txt",
+      "bytes": 14285
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\more-itertools\\11.1.0\\selected_tests_branch.txt",
+      "destination": "data\\selected_tests\\more-itertools\\11.1.0\\selected_tests_branch.txt",
+      "bytes": 16378
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\more-itertools\\11.1.0\\selected_tests_combined.txt",
+      "destination": "data\\selected_tests\\more-itertools\\11.1.0\\selected_tests_combined.txt",
+      "bytes": 16378
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\_normalized_inputs\\attrs\\24.1.0\\normalization_manifest.json",
+      "destination": "data\\normalization\\attrs_24.1.0_normalization_manifest.json",
+      "bytes": 394
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\runtime_validation\\final_benchmark\\final_runtime_summary_12_releases.csv",
+      "destination": "results\\runtime\\final_runtime_summary_12_releases.csv",
+      "bytes": 5135
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\runtime_validation\\final_benchmark\\final_runtime_summary_12_releases.json",
+      "destination": "results\\runtime\\final_runtime_summary_12_releases.json",
+      "bytes": 13182
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\CGTSR_FINAL_FREEZE_MANIFEST.json",
+      "destination": "results\\final_empirical_freeze\\CGTSR_FINAL_FREEZE_MANIFEST.json",
+      "bytes": 5142
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\claim_safety_audit.csv",
+      "destination": "results\\final_empirical_freeze\\claim_safety_audit.csv",
+      "bytes": 716
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\final_empirical_summary.json",
+      "destination": "results\\final_empirical_freeze\\final_empirical_summary.json",
+      "bytes": 1897
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\paired_runtime_measurements.csv",
+      "destination": "results\\final_empirical_freeze\\paired_runtime_measurements.csv",
+      "bytes": 7115
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\paper_ready_numerical_summary.txt",
+      "destination": "results\\final_empirical_freeze\\paper_ready_numerical_summary.txt",
+      "bytes": 1731
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\paper_table_project_level.csv",
+      "destination": "results\\final_empirical_freeze\\paper_table_project_level.csv",
+      "bytes": 725
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\paper_table_release_level.csv",
+      "destination": "results\\final_empirical_freeze\\paper_table_release_level.csv",
+      "bytes": 1233
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\project_runtime_statistics.csv",
+      "destination": "results\\final_empirical_freeze\\project_runtime_statistics.csv",
+      "bytes": 560
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\random_baseline_reference.csv",
+      "destination": "results\\final_empirical_freeze\\random_baseline_reference.csv",
+      "bytes": 541
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\release_runtime_statistics.csv",
+      "destination": "results\\final_empirical_freeze\\release_runtime_statistics.csv",
+      "bytes": 2513
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\selected_test_integrity.csv",
+      "destination": "results\\final_empirical_freeze\\selected_test_integrity.csv",
+      "bytes": 453
+    },
+    {
+      "source": "<LOCAL_WORKSPACE>\\Testing_Tier3_Corrected.ipynb",
+      "destination": "scripts\\Testing_Tier3_Corrected.ipynb",
+      "bytes": 1178060
+    }
+  ],
+  "excluded_from_initial_repository": [
+    "virtual environments",
+    "third-party project source trees",
+    "raw .coverage databases",
+    "per_test_coverage_elements.json",
+    "normalized ~35 MB coverage JSON",
+    "temporary execution directories",
+    "package caches"
+  ],
+  "experiments_rerun": false,
+  "frozen_source_artifacts_modified": false
+}

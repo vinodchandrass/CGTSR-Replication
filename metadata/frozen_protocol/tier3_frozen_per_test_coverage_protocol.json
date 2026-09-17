@@ -1,0 +1,31 @@
+{
+  "protocol_name": "EMSE_Tier3_PerTest_Coverage_Protocol",
+  "status": "FROZEN",
+  "freeze_timestamp": "2026-09-14T07:31:43.766828",
+  "pilot_subject": "attrs 24.1.0",
+  "instrumentation": {
+    "framework": "coverage.py via pytest-cov",
+    "coverage_scope": "production implementation only",
+    "dynamic_context": "pytest test",
+    "branch_mode": true,
+    "statement_representation": "executed production source lines",
+    "branch_representation": "executed coverage.py control-flow arcs"
+  },
+  "pilot_validation": {
+    "collected_test_node_ids": 1334,
+    "coverage_context_tests": 1260,
+    "tests_without_production_context": 74,
+    "unexpected_context_ids": 0,
+    "production_files": 19,
+    "observed_statement_elements": 2392,
+    "observed_branch_arc_elements": 3405,
+    "context_mapping": "CONSISTENT"
+  },
+  "test_universe_policy": "The native eligible regression-test universe is defined independently of production-code coverage. Tests without measured production coverage remain recorded in the test-universe provenance and are not silently treated as nonexistent.",
+  "zero_coverage_policy": "Tests with no measured production-code coverage are retained in the universe record with an empty coverage set. They cannot contribute new coverage elements during coverage-guided set-cover selection.",
+  "collection_skip_policy": "Collection-time skips are recorded separately because pytest may report them in execution outcome totals even though they do not appear among successfully collected node IDs.",
+  "scope_policy": "Only production implementation files belonging to the frozen release are included. Test files, virtual environments, and external libraries are excluded.",
+  "integrity_policy": "No production source, upstream test source, or test fixture may be modified for coverage characterization.",
+  "post_freeze_policy": "The coverage representation and zero-coverage handling rules must remain unchanged across all 12 frozen releases and must not be altered in response to subsequent reduction results.",
+  "next_phase": "batch per-test coverage characterization across 12 releases"
+}

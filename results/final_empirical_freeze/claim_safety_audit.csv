@@ -1,0 +1,9 @@
+claim,supported,scope
+CGTSR preserves the frozen statement+branch coverage universe,True,All 12 frozen releases
+"Combined CGTSR selected 2,381 of 10,129 test instances",True,12 releases
+Pooled test-count reduction is approximately 76.49%,True,12 releases
+All 12 reduced suites execute successfully,True,Observed validation executions
+Reduced suites decrease median runtime across the evaluated releases,True,"12 releases, controlled timing protocol"
+CGTSR is globally minimal,False,NOT SUPPORTED — greedy heuristic
+CGTSR preserves fault-detection effectiveness,False,NOT established by coverage preservation
+Coverage preservation proves semantic equivalence of full and reduced suites,False,NOT SUPPORTED

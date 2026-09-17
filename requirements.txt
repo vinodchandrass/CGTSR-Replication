@@ -1,0 +1,9 @@
+# Dependencies for the public CGTSR reference implementations.
+#
+# Python 3.12 is supported by the retained study evidence.
+#
+# pandas is required only by src/cgtsr/analysis.py.
+# Its exact historical study version was not retained, so no
+# fabricated historical pin is supplied here.
+
+pandas

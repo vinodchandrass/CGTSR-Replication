@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite it and the associated research article when available."
+title: "CGTSR Replication Package: Deterministic Greedy Coverage-Preserving Test-Suite Reduction"
+type: software
+authors:
+  - family-names: "S. S."
+    given-names: "Vinod Chandra"
+    affiliation: "Department of Computer Science, University of Kerala"
+version: "1.0.0"
+date-released: "2026-09-17"
+license: "MIT"
+keywords:
+  - software testing
+  - regression testing
+  - test-suite reduction
+  - structural coverage
+  - coverage-guided testing
+  - empirical software engineering
+  - reproducibility
+repository-code: null

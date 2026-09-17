@@ -1,0 +1,56 @@
+{
+  "operation": "add missing frozen empirical evidence",
+  "timestamp": "2026-09-17T18:15:23.680984",
+  "experiments_rerun": false,
+  "original_workspace_modified": false,
+  "files_copied": [
+    {
+      "source_name": "cgtsr_random_baseline_summary.csv",
+      "destination": "results\\random_baseline\\cgtsr_random_baseline_summary.csv",
+      "sha256": "8706523b7822cc5df403815d107312517936d85d6c6264f21e031f4f07de0e27",
+      "bytes": 2707
+    },
+    {
+      "source_name": "cgtsr_random_baseline_summary.json",
+      "destination": "results\\random_baseline\\cgtsr_random_baseline_summary.json",
+      "sha256": "db842565d43752c302f6f108224335321746a8fc55d935b69864b76d2e597701",
+      "bytes": 9211
+    },
+    {
+      "source_name": "cgtsr_random_baseline_trials.csv",
+      "destination": "results\\random_baseline\\cgtsr_random_baseline_trials.csv",
+      "sha256": "9d6cb17234118ef1bd207d48c5f27671000add2dec993402ef335f4cdb12206d",
+      "bytes": 791306
+    },
+    {
+      "source_name": "remaining_11_execution_summary.csv",
+      "destination": "results\\execution_validation\\remaining_11_execution_summary.csv",
+      "sha256": "1103e73e1d5dcec6c1edd7643d36867402c03e056a55a5f571fded9ce383fd7f",
+      "bytes": 4562
+    },
+    {
+      "source_name": "remaining_11_execution_summary.json",
+      "destination": "results\\execution_validation\\remaining_11_execution_summary.json",
+      "sha256": "cb13ea02128b9fe3679e6d707efda60bff091943fb813df9c6e3c96426e681cc",
+      "bytes": 8328
+    },
+    {
+      "source_name": "combined_reduced_execution.json",
+      "destination": "results\\execution_validation\\attrs\\24.1.0\\combined_reduced_execution.json",
+      "sha256": "4ded09e534efd4dc18deba4823ec4bce9ce01f05b2dba29bce68932a46262a84",
+      "bytes": 699
+    },
+    {
+      "source_name": "tier3_frozen_per_test_coverage_protocol.json",
+      "destination": "metadata\\frozen_protocol\\tier3_frozen_per_test_coverage_protocol.json",
+      "sha256": "38823e67559006628fa86bd8b460783a7a97a566e41c62a4238aca5b606aa5fd",
+      "bytes": 2153
+    },
+    {
+      "source_name": "tier3_frozen_baseline_matrix.csv",
+      "destination": "metadata\\frozen_protocol\\tier3_frozen_baseline_matrix.csv",
+      "sha256": "f77d6f1f8e3fb2343949262e72d36bb821beb58e0e6c3fe05337510b7779974d",
+      "bytes": 3243
+    }
+  ]
+}

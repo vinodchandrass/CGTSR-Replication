@@ -1,0 +1,71 @@
+CGTSR — DETERMINISTIC ANALYSIS REFERENCE VALIDATION
+====================================================
+
+Status: PASS
+
+Reference implementation
+------------------------
+src/cgtsr/analysis.py
+
+Validation results
+------------------
+Release-level statistics : PASS (12/12 releases)
+Project-level statistics : PASS (4/4 projects)
+Overall runtime metrics  : PASS
+Correlation metrics      : PASS
+
+Frozen values reproduced
+------------------------
+Mean release-level median runtime reduction : 43.540355891085916%
+Median release-level median runtime reduction: 48.505865834318946%
+Positive releases                            : 12/12
+Exact two-sided sign-test p                  : 0.00048828125
+Reduced-faster timing pairs                  : 59/60
+Median release-level speedup                 : 2.187004552509833x
+
+Pearson correlation  : 0.9715916529567671
+Spearman correlation : 0.7342657342657343
+
+Statistical conventions
+-----------------------
+Runtime SD: sample standard deviation (ddof=1)
+Spearman: Pearson correlation of average-ranked values
+SciPy required: NO
+
+Bootstrap confidence intervals
+------------------------------
+Frozen CI results retained: YES
+Exact procedural reproduction validated: NO
+
+A provenance search found no retained statistical-bootstrap
+implementation containing the original resample count, RNG/seed,
+or exact CI calculation procedure.
+
+The occurrences of 'bootstrap' in the retained Tier-3 notebook
+refer to Python environment/package bootstrapping, not statistical
+resampling.
+
+Frozen mean 95% CI:
+[25.38839298132632%, 61.249284088655536%]
+
+Frozen median 95% CI:
+[8.532724341831878%, 74.92927725233442%]
+
+No undocumented bootstrap parameters are inferred merely to force
+numerical agreement with the frozen endpoints.
+
+Methodological boundary
+-----------------------
+The release is the primary unit for overall runtime inference.
+Repeated timings within each release are measurement replicates,
+not independent software-system observations.
+
+Execution boundary
+------------------
+Runtime benchmarks rerun  : NO
+Subject tests executed    : NO
+pytest executed           : NO
+coverage.py executed      : NO
+Frozen artifacts modified : NO
+
+STATUS: VALIDATION EVIDENCE RECORDED

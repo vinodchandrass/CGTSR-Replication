@@ -1,0 +1,16 @@
+{
+  "project": "attrs",
+  "version": "24.1.0",
+  "criterion": "combined_statement_branch",
+  "original_collected_tests": 1334,
+  "selected_tests": 190,
+  "python_executable": "D:\\EMSE_Tier3_OSS\\_baseline_py312\\attrs-24.1.0\\Scripts\\python.exe",
+  "repository": "D:\\EMSE_Tier3_OSS\\attrs\\24.1.0",
+  "pytest_invocation": "python -m pytest -q -ra <selected node IDs>",
+  "coverage_enabled": false,
+  "start_time": "2026-09-15T19:32:12.474865",
+  "end_time": "2026-09-15T19:32:17.837165",
+  "wall_clock_seconds": 5.362011500001245,
+  "exit_code": 0,
+  "log_file": "D:\\EMSE_Tier3_OSS\\coverage_guided_reduction\\execution_validation\\attrs\\24.1.0\\combined_reduced_execution.log"
+}

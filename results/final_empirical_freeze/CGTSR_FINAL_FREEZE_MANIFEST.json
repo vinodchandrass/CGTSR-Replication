@@ -1,0 +1,121 @@
+{
+  "freeze_name": "CGTSR_Tier3_Final_Empirical_Freeze",
+  "created_at": "2026-09-15T23:28:10.457349",
+  "status": "PASS",
+  "protocol_status": "FROZEN",
+  "projects": 4,
+  "releases": 12,
+  "criteria": [
+    "statement",
+    "branch",
+    "combined"
+  ],
+  "primary_reduction_criterion": "combined",
+  "combined_original_tests": 10129,
+  "combined_selected_tests": 2381,
+  "combined_removed_tests": 7748,
+  "combined_pooled_reduction_percent": 76.49323723960904,
+  "coverage_preservation": true,
+  "random_baseline_trials": 12000,
+  "random_full_coverage_count": 0,
+  "reduced_suite_execution_validation": "12/12 PASS",
+  "runtime_validation": "12/12 PASS",
+  "runtime_measured_repetitions_per_suite": 5,
+  "runtime_warmup_runs_per_suite": 1,
+  "runtime_coverage_instrumentation": false,
+  "authoritative_input_hashes": [
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_characterization\\tier3_per_test_coverage_summary.csv",
+      "sha256": "de3dce2a28e47b68a18ae7b21a6154a98c4107708a7902df99dd8ad9e2f611c2",
+      "bytes": 1156
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cgtsr_reduction_summary.csv",
+      "sha256": "e5da6352edb6725b04de19c058a4b6a1219c2463edaf714e38539915b29249cf",
+      "bytes": 2218
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\cgtsr_reduction_summary.json",
+      "sha256": "d3735119d7694d739b480c7ceacd8924a990b70e6e2096698c097cca63592fd7",
+      "bytes": 11582
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\runtime_validation\\final_benchmark\\final_runtime_summary_12_releases.csv",
+      "sha256": "070ef4ba4242610f6a61f19622c1c936aa463a8e697aa1d7efe1950493717542",
+      "bytes": 5135
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\runtime_validation\\final_benchmark\\final_runtime_summary_12_releases.json",
+      "sha256": "ee758b77ba370c0c7e7c0ae94eab86fbbc12abf91a439f8ba34cee00265a4fc1",
+      "bytes": 13182
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\execution_validation\\attrs\\24.1.0\\combined_reduced_execution.json",
+      "sha256": "4ded09e534efd4dc18deba4823ec4bce9ce01f05b2dba29bce68932a46262a84",
+      "bytes": 699
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\execution_validation\\remaining_11_execution_summary.csv",
+      "sha256": "1103e73e1d5dcec6c1edd7643d36867402c03e056a55a5f571fded9ce383fd7f",
+      "bytes": 4562
+    }
+  ],
+  "generated_analysis_hashes": [
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\claim_safety_audit.csv",
+      "sha256": "e39431dbdcfe128f3c8bd53cec2cfefb19facbaf217a1c2843bb177bdc21f81f",
+      "bytes": 716
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\final_empirical_summary.json",
+      "sha256": "a4fc283aa96c40c14c6e1a37469e581e09aa3d1fe9da76ca17d7fc18afddc2a3",
+      "bytes": 1897
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\paired_runtime_measurements.csv",
+      "sha256": "3fbe4d22a2f961f0b904882e0985e05e4b49383d1141fd84ba705931973cc15d",
+      "bytes": 7115
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\paper_ready_numerical_summary.txt",
+      "sha256": "54c6e69059cafe08d34bd0cf8aa21ad1c9318710af7ae70e15485f1346ee39f8",
+      "bytes": 1731
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\paper_table_project_level.csv",
+      "sha256": "01d1f98a9d2ff6c4c322534dac68402b2250e6afe9de8fde09b6fef232dc6b93",
+      "bytes": 725
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\paper_table_release_level.csv",
+      "sha256": "dc78f0b72134f28fdda83b5b5592d25c3afbe044dd2542cb01ef50fda4d11b49",
+      "bytes": 1233
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\project_runtime_statistics.csv",
+      "sha256": "ae389228fc32a19d0901de88a54f38e4f918aa07a891704f6c8c33efc09e96f9",
+      "bytes": 560
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\random_baseline_reference.csv",
+      "sha256": "a1242f509fd6fcb2d02141faf185fbee6f0c77ecd153f8939d3a3b7da4d075f4",
+      "bytes": 541
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\release_runtime_statistics.csv",
+      "sha256": "58eb90ed316b2f93c96e66a89a4f7137d96a66e9062dcb5cf40078d1b95f38e5",
+      "bytes": 2513
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>\\coverage_guided_reduction\\final_empirical_freeze\\selected_test_integrity.csv",
+      "sha256": "41b0812751417286f22cc8e837ea2edc45ef2e2b4e44aa48e691bcd4504204f6",
+      "bytes": 453
+    }
+  ],
+  "claim_boundaries": {
+    "global_minimality": false,
+    "fault_detection_equivalence": false,
+    "coverage_preservation": true,
+    "observed_runtime_reduction": true
+  }
+}

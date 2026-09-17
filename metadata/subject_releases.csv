@@ -1,0 +1,13 @@
+project,version
+attrs,24.1.0
+attrs,25.3.0
+attrs,26.1.0
+cattrs,24.1.0
+cattrs,25.3.0
+cattrs,26.1.0
+boltons,24.1.0
+boltons,25.0.0
+boltons,26.1.0
+more-itertools,10.5.0
+more-itertools,10.8.0
+more-itertools,11.1.0
